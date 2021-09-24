@@ -1,0 +1,35 @@
+{	"pygame boiler code": {
+	"scope": "python",
+	"prefix": "!pygame",
+	"body": [
+	   "import pygame",
+	   "from sys import exit",
+	   "\n",
+	   "pygame.init()",
+	   "screen = pygame.display.set_mode((${1:width},{2:height}))",
+	   "clock = pygame.time.Clock()",
+	   "\n",
+	   "while True:",
+	   "\tfor event in pygame.event.get():",
+	   "\t\tif event.type == pygame.QUIT:",
+				   "\t\t\tpygame.quit()",
+				   "\t\t\texit()",
+	   "\n\n\t\t#game code",
+	   "\n",
+	   "\t\tpygame.display.update()",
+	   "\t\tclock.tick(60)",
+	],
+	"description": "Generate pygame boiler code"
+	},
+
+	"screen": {
+	 	"scope": "python",
+	 	"prefix": ".screen",
+	 	"body": [
+			"screen = pygame.display.set_mode((${1:width},{2:height}))",
+	 	],
+	 	"description": "create a screen"
+	 }
+}
+
+

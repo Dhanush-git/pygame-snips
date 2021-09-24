@@ -1,0 +1,24 @@
+{
+    "name": "pygame-snips",
+    "displayName": "pygame snips",
+    "icon": "images/logo.png",
+    "description": "pygame snippets for vscode",
+    "version": "0.0.3",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "author": {"name": "Dhanush"},
+
+    "publisher": "Dhanush",
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "python",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
