@@ -6,7 +6,7 @@
 	   "from sys import exit",
 	   "\n",
 	   "pygame.init()",
-	   "screen = pygame.display.set_mode((${1:width},{2:height}))",
+	   "screen = pygame.display.set_mode((${1:width},${2:height}))",
 	   "clock = pygame.time.Clock()",
 	   "\n",
 	   "while True:",
@@ -24,9 +24,9 @@
 
 	"screen": {
 	 	"scope": "python",
-	 	"prefix": ".screen",
+	 	"prefix": "screen",
 	 	"body": [
-			"screen = pygame.display.set_mode((${1:width},{2:height}))",
+			"${1:screen} = pygame.display.set_mode((${2:width},${3:height}))",
 	 	],
 	 	"description": "create a screen"
 	 }

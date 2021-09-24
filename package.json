@@ -3,11 +3,15 @@
     "displayName": "pygame snips",
     "icon": "images/logo.png",
     "description": "pygame snippets for vscode",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "engines": {
         "vscode": "^1.60.0"
     },
     "author": {"name": "Dhanush"},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Dhanush-git/pygame-snips"
+      },
 
     "publisher": "Dhanush",
     "categories": [

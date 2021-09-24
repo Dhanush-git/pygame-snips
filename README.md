@@ -8,5 +8,6 @@ Easy to use pygame snippets to help you with your pygame projects.
 
 <br>
 
-**Available Snippets**
-> !pygame - generates pygame boilercode
+**Available Snippets ✂**
+> !pygame - generates pygame boilercode<br>
+> screen - generate pygame.display.set_mode()
